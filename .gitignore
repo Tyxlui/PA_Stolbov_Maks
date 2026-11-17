@@ -1,0 +1,17 @@
+# .NET
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Состояние запуска (PID-файлы, логи, сгенерированный nats.conf с паролем, данные Redis)
+scripts/.run/
+
+# Рабочие файлы nginx
+nginx/logs/
+nginx/temp/
+
+# Бинарники, которые скачиваются отдельно
+nats/nats-server.exe
+redis/*.exe
